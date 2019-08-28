@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzaBox.Domain\PizzaBox.Domain.csproj" />
+    <ProjectReference Include="..\PizzaBox.Data\PizzaBox.Data.csproj" />
+    <ProjectReference Include="..\PizzaBox.Testing\PizzaBox.Testing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="2.2.6" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+</Project>
